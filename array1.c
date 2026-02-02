@@ -10,7 +10,7 @@ int main() {
 
     printf("You Entered: \n");
     for(int i = 0; i < 10; i++) {
-        printf("%d",arr[i]);
+        printf("%d\n",arr[i]);
     }
 
     return 0;
