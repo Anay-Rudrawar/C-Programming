@@ -15,4 +15,15 @@ int main() {
         printf("Element %d: ", i + 1);
         scanf("%d", &arr2[i]);
     }
+
+    for(i = 0; i < 10; i++) {
+        sum[i] = arr1[i] + arr2[i];
+    }
+
+    printf("\nSum of both arrays:\n");
+    for(i = 0; i < 10; i++) {
+        printf("%d ", sum[i]);
+    }
+
+    return 0;
 }    
