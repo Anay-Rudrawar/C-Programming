@@ -5,4 +5,12 @@ int main()
     float basic, hra, ta, gross, tax, net;
 
     
+    printf("Enter Basic Salary: ");
+    scanf("%f", &basic);
+
+    
+    hra = 0.10 * basic;      
+    ta  = 0.05 * basic;      
+
+    
 }
