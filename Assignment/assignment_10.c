@@ -34,5 +34,40 @@ int main() {
             }
             printf("Factorial of %d is %.0lf\n", n, result);
             break;
-        
+        case 3:
+            printf("Enter two numbers: ");
+            double a, b;
+            scanf("%lf %lf", &a, &b);
+            result = a + b;
+            printf("%.2lf + %.2lf = %.2lf\n", a, b, result);
+            break;
+        case 4:
+            printf("Enter two numbers: ");
+            scanf("%lf %lf", &a, &b);
+            result = a - b;
+            printf("%.2lf - %.2lf = %.2lf\n", a, b, result);
+            break;
+        case 5:
+            printf("Enter two numbers: ");
+            scanf("%lf %lf", &a, &b);
+            result = a * b;
+            printf("%.2lf * %.2lf = %.2lf\n", a, b, result);
+            break;
+        case 6:
+            printf("Enter two numbers: ");
+            scanf("%lf %lf", &a, &b);
+            if (b != 0) {
+                result = a / b;
+                printf("%.2lf / %.2lf = %.2lf\n", a, b, result);
+            } else {
+                printf("Error! Division by zero is not allowed.\n");
+            }
+            break;
+        case 7:
+            printf("End of Program.\n");
+            break;  
+        default:
+            printf("Invalid choice.\n");
+    }
+    return 0;
 }
