@@ -34,5 +34,10 @@ int main()
     printf("Square of %d = %d\n", num, square);
     printf("Cube of %d = %d\n", num, cube);
 
-    
+    if (num >= 0)
+    {
+        printf("Factorial of %d = %lld\n", num, factorial);
+    }
+
+    return 0;
 }
