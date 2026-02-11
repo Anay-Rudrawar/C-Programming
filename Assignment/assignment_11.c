@@ -29,5 +29,10 @@ int main()
         }
     }
 
+    printf("\nResults:\n");
+    printf("Square Root of %d = %.2lf\n", num, sqrt_result);
+    printf("Square of %d = %d\n", num, square);
+    printf("Cube of %d = %d\n", num, cube);
+
     
 }
